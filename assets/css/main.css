@@ -57,6 +57,7 @@ html{
 
 body{
     background-color: var(--black);
+    scroll-behavior: smooth;
 }
 
 section{
@@ -564,7 +565,7 @@ header #menu-btn:hover{
 .portfolio-item img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .portfolio-item .content{
@@ -705,142 +706,6 @@ header #menu-btn:hover{
 
 /*--------------------- 8- Portfolio Area CSS (End) ---------------------*/
 
-
-
-/*--------------------- 9- Testimonials Area CSS (Start) ---------------------*/
-.testimonial-slider{
-    position: relative;
-    padding-bottom: 4rem;
-    overflow: hidden;
-}
-
-.testi-item{
-    text-align: center;
-    border: 0.1rem solid var(--grey);
-    border-radius: 0.5rem;
-    padding: 4rem 2rem;
-}
-
-.testi-item:hover{
-    border-color: var(--purple);
-}
-
-.testi-item img{
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
-    border: 0.5rem solid var(--white);
-}
-
-.testi-item .fa-quote-left{
-    display: block;
-    font-size: 3rem;
-    color: var(--white);
-    margin: 1rem 0;
-}
-
-.testi-item p{
-    color: var(--grey);
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
-
-.testi-item .intro{
-    margin: 1rem 0;
-}
-
-.testi-item .intro h3{
-    font-size: 2rem;
-    color: var(--white);
-    padding-bottom: 0.5rem;
-}
-
-.testi-item .intro h5{
-    color: var(--purple);
-    font-size: 1.4rem;
-    font-weight: 400;
-}
-
-/*--------------------- 9- Testimonials Area CSS (End) ---------------------*/
-
-
-
-/*--------------------- 10- Blog Area CSS (Start) ---------------------*/
-.blog-slider{
-    position: relative;
-    padding-bottom: 4rem;
-    overflow: hidden;
-}
-
-.blog-item{
-    background-color: #222;
-    border: 0.1rem solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.blog-item .image{
-    height: 25rem;
-    overflow: hidden;
-}
-
-.blog-item:hover .image img{
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-}
-
-.blog-item .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.blog-item .content{
-    padding: 2rem 1rem;
-}
-
-.blog-item .content .intro{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    border-bottom: 0.2rem solid var(--grey);
-    padding: 1rem 0;
-    margin-bottom: 1.5rem;
-}
-
-.blog-item .content .intro h5{
-    font-size: 1.5rem;
-}
-
-.blog-item .content .intro h5 i{
-    color: var(--purple);
-    padding-right: 0.5rem;
-}
-
-.blog-item .content .intro h5 span{
-    color: var(--grey);
-}
-
-.blog-item .content .main-heading{
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--white);
-}
-
-.blog-item p{
-    padding: 1rem 0;
-    font-size: 1.6rem;
-    color: var(--grey);
-}
-
-.blog-item .btn{
-    margin-top: 1rem;
-}
-
-/*--------------------- 10- Blog Area CSS (End) ---------------------*/
 
 
 
