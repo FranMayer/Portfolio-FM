@@ -91,6 +91,21 @@ section{
 
 /*--------------------- 0- Global CSS (End) ---------------------*/
 
+/*---------------------------- BTN Whatsapp ---------------------*/
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 70px; 
+    right: 10px; 
+    z-index: 1000; 
+}
+
+.whatsapp-btn img {
+    width: 50px;
+    height: auto;
+}
+
+/*--------------------- BTN Whatsapp (end) ------------------------------- */
 
 
 /*--------------------- 1- Heading CSS (Start) ---------------------*/
