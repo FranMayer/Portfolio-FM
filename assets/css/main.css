@@ -379,7 +379,7 @@ header #menu-btn:hover{
     max-width: 800px; 
     text-align: left; 
     color: var(--white);
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .skill-container{
@@ -404,8 +404,16 @@ header #menu-btn:hover{
     width: 8rem; 
     margin-right: 5rem; 
 }
+
+.skill-item img:hover {
+    transform: rotate(-15deg);
+}
 .skill-item:first-child {
     margin-left: 0; 
+}
+
+.download {
+    margin-left: 250px;
 }
 
 

@@ -8,9 +8,9 @@
 @media (max-width: 768px){
     header #menu-btn{
         display: block;
-      } 
-  
-      .header .navbar{
+    } 
+
+    .header .navbar{
         width: 30rem;
         position: absolute;
         right: 0; 
@@ -29,23 +29,23 @@
         -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     }
-  
+
     .header .navbar.active{
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
-  
+
     .header .navbar a{
         display: block;
         color: #000000;
         padding: 1.5rem 0;
         margin: 1rem 0;
     }
-  
+
     .navbar::-webkit-scrollbar{
         width: 0.8rem;
     }
-  
+
     .navbar::-webkit-scrollbar-thumb{
         border-radius: 1rem;
         background-color: #BC8CF2;
@@ -58,6 +58,11 @@
     section, header{
         padding: 2rem;
     }
+
+    .about-image {
+        display: none;
+    }
+
 
 }
 
