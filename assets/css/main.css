@@ -61,7 +61,7 @@ body{
 }
 
 section{
-    padding: 2rem 5%;
+    padding: 1rem;
 }
 
 ::-webkit-scrollbar{
@@ -289,8 +289,7 @@ header #menu-btn:hover{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
-    margin-top: 7rem;
+    margin-top: 1rem;
 }
 
 .home .content h2{
