@@ -239,7 +239,6 @@ header #menu-btn:hover{
 
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
-    padding: 0rem 5%;
     background-color: var(--black);
     min-height: 100vh;
 }
@@ -257,7 +256,6 @@ header #menu-btn:hover{
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 4rem;
 }
 
 .home .image{
@@ -495,7 +493,7 @@ header #menu-btn:hover{
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.3rem;
 }
 
 .service-item{
@@ -503,7 +501,7 @@ header #menu-btn:hover{
     -ms-flex: 1 1 33rem;
         flex: 1 1 33rem;
     background-color: var(--black);
-    padding: 4rem 3rem;
+    padding: 4rem 2rem;
     text-align: center;
     border: 0.1rem solid rgba(255,255, 255, 0.3);
     border-radius: 0.5rem;
