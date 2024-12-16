@@ -157,7 +157,7 @@ section{
 
 .btn:hover{
     color: var(--white);
-    background-color: var(--purple);
+    background-color: var(--purpl);
     cursor: pointer;
 }
 
@@ -955,7 +955,7 @@ footer .content p span{
 
   .scroll-top:hover{
     background: var(--white);
-    color:var(--black);
+    color:var(--blue);
   }
 
 /*--------------------- 13- Scroll-Top (End) ---------------------*/
