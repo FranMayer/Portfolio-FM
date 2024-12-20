@@ -142,24 +142,38 @@ section{
 
 
 /*--------------------- 2- Button CSS (Start) ---------------------*/
-.btn{
-    display: inline-block;
+
+.btn-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.btn {
     padding: 1rem 2rem;
     font-size: 1.8rem;
     color: var(--purple);
     background-color: transparent;
     border: 0.2rem solid var(--purple);
+    border-radius: 0.5rem;
+    width: auto; 
 }
 
-.btn i{
+.btn i {
     padding-left: 1rem;
 }
 
-.btn:hover{
+.btn:hover {
     color: var(--white);
-    background-color: var(--purpl);
+    background-color: var(--purple); 
     cursor: pointer;
 }
+
+
+
+
+
 
 /*--------------------- 2- Button CSS (End) ---------------------*/
 
@@ -407,10 +421,6 @@ header #menu-btn:hover{
 }
 .skill-item:first-child {
     margin-left: 0; 
-}
-
-.download {
-    margin-left: 250px;
 }
 
 
