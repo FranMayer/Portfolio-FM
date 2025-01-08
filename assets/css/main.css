@@ -209,7 +209,7 @@ header.sticky{
 }
 
 header .logo h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
     color: var(--purple);
     text-transform: uppercase;
