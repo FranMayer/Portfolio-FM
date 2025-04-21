@@ -19,7 +19,7 @@ $(document).ready(function(){
         
         delegate: "a",
         type: "image",
-        removalDelay: 500, //delay removal by X to allow out-animation
+        removalDelay: 500, 
         gallery:{
             enabled: true
         },
@@ -32,7 +32,7 @@ $(document).ready(function(){
             }
           },
           closeOnContentClick: true,
-          midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+          midClick: true 
 
     })
 
