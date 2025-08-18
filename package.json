@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-fm",
+  "version": "1.0.0",
+  "description": "> Mi portafolio personal donde muestro mis proyectos, habilidades y un poco de quién soy como desarrollador web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranMayer/Portfolio-FM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FranMayer/Portfolio-FM/issues"
+  },
+  "homepage": "https://github.com/FranMayer/Portfolio-FM#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}
