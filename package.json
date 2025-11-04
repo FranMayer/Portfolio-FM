@@ -20,5 +20,8 @@
   "homepage": "https://github.com/FranMayer/Portfolio-FM#readme",
   "devDependencies": {
     "cypress": "^14.5.4"
-  }
+  },
+  "engines": {
+  "node": "22.x"
+}
 }
