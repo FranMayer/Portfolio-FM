@@ -1,98 +1,99 @@
-# 💼 Portfolio FM - Frontend con Pruebas de QA Automatizadas
+# 💼 Portfolio FM - Frontend with QA Automation Tests
 
-> Mi portafolio personal donde muestro mis proyectos y habilidades, ahora validado con una suite de pruebas E2E (End-to-End) usando Cypress.
+> My personal portfolio showcasing my projects and skills, now validated with an E2E (End-to-End) test suite using Cypress.
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-🔗 [Ver Portfolio FM en vivo](https://franmayer.github.io/Portfolio-FM/)
+🔗 [See Portfolio FM live](https://franmayer.github.io/Portfolio-FM/)
 
 ---
 
-## 🧪 Pruebas de Calidad (QA) con Cypress
+## 🧪 Quality Assurance (QA) Tests with Cypress
 
-Este proyecto no solo sirve como mi portfolio de frontend, sino también como un caso de estudio real para **pruebas de automatización con Cypress**. El objetivo es asegurar que las funcionalidades críticas de la página siempre funcionen como se espera.
+This project serves not only as my frontend portfolio but also as a real-world case study for **QA automation testing with Cypress**. The goal is to ensure that the page's critical functionalities always work as expected.
 
-### Casos de Prueba Implementados
+### Implemented Test Cases
 
-Se ha creado una suite de pruebas (en `cypress/e2e/test-cases.cy.js`) que valida dos flujos de usuario clave:
+A test suite has been created (in `cypress/e2e/test-cases.cy.js`) that validates two key user flows:
 
-**1. Verificación del Botón "Descargar CV":**
+**1. "Download CV" Button Verification:**
 * **Test:** `TC0X - Should verify the CV download button`
-* **Qué hace:**
-    * Verifica que el botón de descarga esté visible y contenga el texto correcto.
-    * Valida que el botón tenga el atributo `download`.
-    * Confirma que el `href` apunte al archivo `.pdf` correcto.
-    * Realiza un `cy.request` al archivo para asegurar que existe y devuelve un `status 200`, previniendo un link roto.
+* **What it does:**
+    * Asserts that the download button is visible and contains the correct text.
+    * Validates that the button has the `download` attribute.
+    * Confirms that the `href` points to the correct `.pdf` file.
+    * Performs a `cy.request` to the file's path to ensure it exists and returns a `status 200`, preventing a broken link.
 
-**2. Validación del Formulario de Contacto (Test de Regresión):**
+**2. Contact Form Validation (Regression Test):**
 * **Test:** `TC02 - Should NOT submit the form if fields are empty`
-* **Qué hace:**
-    * Prueba que el formulario **no se pueda enviar** si los campos `required` (Nombre, Email, Motivo) están vacíos.
-    * Simula un clic en "Enviar" y verifica que la página no se recargue (la URL no cambia).
-    * Confirma que la validación nativa de HTML5 funciona, comprobando que el navegador marca los campos como inválidos.
+* **What it does:**
+    * Tests the "sad path" by ensuring the form **cannot be submitted** if the `required` fields (Name, Email, Subject) are empty.
+    * Simulates a click on the "Submit" button and verifies that the page does not reload (the URL remains unchanged).
+    * Confirms that the native HTML5 validation is working by checking that the browser correctly marks the fields as invalid.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tech Stack
 
 ### Frontend
 * HTML5
 * CSS3
 * JavaScript
-* Bootstrap 5 (para el diseño responsive)
-* FontAwesome (para iconos)
+* Bootstrap 5 (for responsive design)
+* FontAwesome (for icons)
 
 ### Testing (QA)
-* **Cypress** (para pruebas E2E y de validación)
+* **Cypress** (for E2E and validation testing)
 
 ---
 
-## 📑 Descripción
+## 📑 Project Description
 
-**Portfolio FM** es un proyecto personal que diseñé para tener un espacio online donde mostrar mi perfil profesional, mis proyectos más destacados y las tecnologías que domino. Sirve como carta de presentación para futuros empleadores, colaboradores o clientes.
+**Portfolio FM** is a personal project I designed to have an online space to display my professional profile, my most notable projects, and the technologies I command. It serves as a cover letter for future employers, collaborators, or clients.
 
-### Secciones principales
+### Main Sections
 
-* ✅ **Home** - Presentación personal.
-* ✅ **Sobre mí** - Un resumen de mi trayectoria, enfoque y pasiones.
-* ✅ **Proyectos** - Galería de trabajos y prácticas que reflejan mis habilidades.
-* ✅ **Contacto** - Formulario de contacto directo (validado con tests).
-* ✅ **Footer con redes sociales**.
+* ✅ **Home** - Personal introduction.
+* ✅ **About Me** - A summary of my background, focus, and passions.
+* ✅ **Projects** - A gallery of work and practice projects that reflect my skills.
+* ✅ **Contact** - A direct contact form (validated with tests).
+* ✅ **Footer with social media links**.
 
-### Objetivo del proyecto
+### Project Goals
 
-Este portafolio me permitió practicar y mejorar:
+This portfolio allowed me to practice and improve:
 
-* Maquetado adaptable usando **Bootstrap 5**.
-* Creación de una interfaz amigable y profesional.
-* Uso de **JavaScript** para interactividad.
-* **Aplicar habilidades de QA Automation**, escribiendo pruebas E2E con Cypress para validar las funcionalidades clave.
+* Responsive layout design using **Bootstrap 5**.
+* Creating a user-friendly and professional interface.
+* Code optimization for better performance.
+* Using **JavaScript** for interactivity.
+* **Applying QA Automation skills** by writing E2E tests with Cypress to validate key functionalities.
 
 ---
 
-## 📥 Instalación y Pruebas
+## 📥 Installation and Testing
 
-Si querés clonar el repositorio y correr las pruebas en local:
+If you want to clone the repository and run the tests locally:
 
-1.  Clonar el repositorio:
+1.  Clone the repo:
     ```bash
     git clone [https://github.com/FranMayer/Portfolio-FM.git](https://github.com/FranMayer/Portfolio-FM.git)
     cd Portfolio-FM
     ```
 
-2.  Instalar las dependencias de Cypress:
+2.  Install Cypress dependencies:
     ```bash
     npm install
     ```
 
-3.  ¡Importante! Iniciar un servidor local (como **Live Server** en VS Code) para que la web esté corriendo.
+3.  **Important!** Start a local server (like the **Live Server** extension in VS Code) so the site is running.
 
-4.  Abrir el Test Runner interactivo de Cypress:
+4.  Open the Cypress interactive Test Runner:
     ```bash
     npx cypress open
     ```
 
-5.  Correr todos los tests en modo *headless* (en la terminal):
+5.  Run all tests in *headless* mode (in the terminal):
     ```bash
     npx cypress run
     ```
