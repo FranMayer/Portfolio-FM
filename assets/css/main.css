@@ -811,7 +811,8 @@ header #menu-btn:hover{
             transition: all 0.4s linear;
 }
 
-.portfolio-item .content .view-btn{
+.portfolio-item .content .view-btn,
+.portfolio-item .content .demo-btn{
     font-size: 2rem;
     color: var(--purple);
     transform-origin: top;
@@ -843,7 +844,8 @@ header #menu-btn:hover{
     opacity: 1;
 }
 
-.portfolio-item:hover .content .view-btn{
+.portfolio-item:hover .content .view-btn,
+.portfolio-item .content .demo-btn{
     -webkit-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;

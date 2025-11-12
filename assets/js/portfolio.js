@@ -17,7 +17,7 @@ $(document).ready(function(){
     //MAGNIFIC-POPUP
     $(".gallery").magnificPopup({
         
-        delegate: "a",
+        delegate: "a.view-btn",
         type: "image",
         removalDelay: 500, 
         gallery:{
