@@ -130,7 +130,7 @@ body{
     text-align: center;
     padding-bottom: 2rem;
     color:var(--purple);
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .heading h2 span{
@@ -145,9 +145,13 @@ body{
     bottom: -0.5rem; left: 0;
     z-index: -1;
     background: var(--purple);
-    height: 0.2rem;
+    height: 0.4rem;
     width: 80%;
     margin-left: 10%;
+}
+
+section {
+    scroll-margin-top: 9rem;
 }
 
 /*--------------------- 1- Heading CSS (End) ---------------------*/
