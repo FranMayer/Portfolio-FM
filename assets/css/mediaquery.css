@@ -1,27 +1,64 @@
+/*--------------------- Additional Media Queries ---------------------*/
 
-@media only screen and (max-width: 768px) {
-    .btn-container {
-        text-align: center; 
-    }
-
-    .btn {
-        width: 90%; 
-    }
-}
-
-/* Resoluciones medianas (tablets grandes y laptops pequeños) */
-@media only screen and (max-width: 992px) {
-    .logo {
-        margin: 0 auto;
-    }
-
+/* Landscape mode on mobile */
+@media (max-height: 500px) and (orientation: landscape) {
     .home {
-        margin-top: 100px;
+        min-height: auto;
+        padding: 8rem 2rem 4rem;
     }
-
-    .contact .box-container {
-        display: flex;
-        flex-direction: column; 
-        align-items: center; 
+    
+    .home .box-container {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    
+    .home .image img {
+        max-height: 25rem;
+        max-width: 25rem;
+    }
+    
+    .home .content h1 {
+        font-size: 2.5rem;
     }
 }
+
+/* Very tall screens (modern phones) */
+@media (min-height: 800px) and (max-width: 500px) {
+    .home {
+        padding-top: 12rem;
+    }
+    
+    .home .box-container {
+        gap: 4rem;
+    }
+}
+
+/* High DPI screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .home .image img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* Print styles */
+@media print {
+    .animated-bg,
+    .scroll-top,
+    .whatsapp-btn,
+    .theme-toggle,
+    #menu-btn {
+        display: none !important;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .home,
+    section {
+        page-break-inside: avoid;
+    }
+}
+
+/*--------------------- Additional Media Queries (End) ---------------------*/

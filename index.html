@@ -9,6 +9,22 @@
 
     <!-- Title -->
     <title>Franco Mayer | Desarrollador Web</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Franco Mayer - Desarrollador Frontend y QA Automation. Creación de sitios web modernos, landing pages y e-commerce. Más de un año de experiencia mejorando la vida de usuarios a través de la web.">
+    <meta name="keywords" content="desarrollador web, frontend, QA automation, HTML, CSS, JavaScript, React, Cypress, Córdoba, Argentina">
+    <meta name="author" content="Franco Mayer">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Franco Mayer | Desarrollador Web">
+    <meta property="og:description" content="Desarrollador Frontend y QA Automation. Creación de sitios web modernos y testing automatizado.">
+    <meta property="og:url" content="https://franmayer.github.io">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Franco Mayer | Desarrollador Web">
+    <meta name="twitter:description" content="Desarrollador Frontend y QA Automation. Creación de sitios web modernos y testing automatizado.">
 
     <!-- Font-Awesome CSS -->
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css" />
@@ -72,13 +88,22 @@
         <nav class="navbar">
             <a href="#home">Inicio</a>
             <a href="#about">Acerca de mi</a>
+            <a href="#skills">Skills</a>
+            <a href="#qualification">Curriculum</a>
             <a href="#service">Servicios</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contacto</a>
         </nav>
 
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+            <i class="fas fa-moon"></i>
+        </button>
+
         <!-- Menubar -->
-        <div class="fas fa-bars" id="menu-btn"></div>
+        <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
         
     </header>
     <!-------------------- Header Area (End) -------------------->
@@ -92,15 +117,15 @@
 
             <div class="content">
                 <div class="text">
-                    <h2>Hola! 👋</h1>
-                    <h1>Soy <span class="typing-text">desarrollador web</span></h1>
-                    <p>Con mas de un año de experiencia en mejorar la vida de los usuarios a través de la web.</p>
-                    <a href="#about" class="btn">Conoceme!<i class="fas fa-user"></i></a>
+                    <h2 class="animate-fade-in" style="animation-delay: 0.2s">Hola! 👋</h2>
+                    <h1 class="animate-fade-in" style="animation-delay: 0.4s">Soy <span class="typing-text">desarrollador web</span></h1>
+                    <p class="animate-fade-in" style="animation-delay: 0.6s">Con mas de un año de experiencia en mejorar la vida de los usuarios a través de la web.</p>
+                    <a href="#about" class="btn animate-fade-in" style="animation-delay: 0.8s">Conoceme!<i class="fas fa-user"></i></a>
                 </div>
             </div>
     
-            <div class="image">
-                <img src="assets/images/Home/Image-home.jpeg" alt="Home-Image">
+            <div class="image animate-fade-in-right" style="animation-delay: 0.5s">
+                <img src="assets/images/Home/programmer-illustration.svg" alt="Ilustración de programador" class="floating">
             </div>
 
         </div>
@@ -147,7 +172,7 @@
         </div>
 
         
-        <div class="skill-container">
+        <div class="skill-container" id="skills">
 
             <div class="heading">
                 <h2>Mis <span>habilidades</span></h2>
@@ -161,9 +186,9 @@
                     <img src="./assets/images/About/bootstrap.svg" alt="bootstrap logo" style="width: 8rem">
                     <img src="./assets/images/About/sass.svg" alt="Sass logo" style="width: 8rem;">
                     <img src="./assets/images/About/reactts-svgrepo-com.svg" alt="React logo" style="width: 8rem;">
-                    <img src="./assets/images/About/php-svgrepo-com.svg" alt="React logo" style="width: 8rem;">
-                    <img src="./assets/images/About/mysql-logo-svgrepo-com.svg" alt="React logo" style="width: 8rem;">
-                    <img src="./assets/images/About/Cypress.svg" alt="React logo" style="width: 8rem;">
+                    <img src="./assets/images/About/php-svgrepo-com.svg" alt="PHP logo" style="width: 8rem;">
+                    <img src="./assets/images/About/mysql-logo-svgrepo-com.svg" alt="MySQL logo" style="width: 8rem;">
+                    <img src="./assets/images/About/Cypress.svg" alt="Cypress logo" style="width: 8rem;">
                 </div>
             </div>
         </div>
@@ -174,7 +199,7 @@
     
 
     <!-------------------- Qualification Area (Start) -------------------->
-    <section class="qualification">
+    <section class="qualification" id="qualification">
 
         <div class="heading">
             <h2>Mi <span>curriculum</span></h2>
@@ -268,7 +293,7 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
             </div>
 
             <div class="service-item">
-                <i class="fas fa-camera"></i>
+                <i class="fas fa-comments"></i>
                 <h3>Consultoria</h3>
                 <p>Servicio de asistencia ante cualquier duda con respecto a tu sitio web nuevo o que ya dispongas.</p>
             </div>
@@ -413,11 +438,14 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
                         <a data-effect="mfp-newspaper" href="assets/images/Portfolio/8.jpg" class="view-btn"><i class="fas fa-search-plus"></i></a>
                     </div>
                 </div>
-    </section>
 
-</div>
-<a href="https://github.com/FranMayer" class="btn btn-center" target="_blank">Ver proyectos en GitHub<i class="fas fa-search-plus"></i></a>
-</div>
+            </div>
+
+            <div class="btn-center-container">
+                <a href="https://github.com/FranMayer" class="btn btn-center" target="_blank">Ver proyectos en GitHub <i class="fab fa-github"></i></a>
+            </div>
+
+    </section>
     <!-------------------- Portfolio Area (End) -------------------->
 
 
@@ -458,7 +486,7 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
                     <h4>Linkedin:</h4>
                     <div class="detail">
                         <div class="fab fa-linkedin"></div>
-                        <p class="linkedin">linkedin.com/in/franmayer/</p>
+                        <a href="https://linkedin.com/in/franmayer/" target="_blank" class="linkedin">linkedin.com/in/franmayer/</a>
                     </div>
                 </div>
 
@@ -466,7 +494,7 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
                     <h4>Github:</h4>
                     <div class="detail">
                         <div class="fab fa-github"></div>
-                        <p class="github">github.com/FranMayer</p>
+                        <a href="https://github.com/FranMayer" target="_blank" class="github">github.com/FranMayer</a>
                     </div>
                 </div>
             </div>
