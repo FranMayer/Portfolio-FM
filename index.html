@@ -79,26 +79,30 @@
 
         <!-- Logo -->
         <a class="logo" href="#home">
-            <!-- <h2> Fran Mayer </h2>  -->
-            <img src="assets/images/Home/Logo-removebg-preview.png" alt="logo" style="width: 9rem;"/>
+            <img src="assets/images/Home/Logo-removebg-preview.png" alt="logo" class="logo-img"/>
         </a>
         <!-- Logo End -->
 
         <!-- Navbar -->
         <nav class="navbar">
-            <a href="#home">Inicio</a>
-            <a href="#about">Acerca de mi</a>
-            <a href="#skills">Skills</a>
-            <a href="#qualification">Curriculum</a>
-            <a href="#service">Servicios</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contacto</a>
+            <a href="#home" data-i18n="nav.home">Inicio</a>
+            <a href="#about" data-i18n="nav.about">Acerca de mi</a>
+            <a href="#skills" data-i18n="nav.skills">Skills</a>
+            <a href="#qualification" data-i18n="nav.qualification">Curriculum</a>
+            <a href="#service" data-i18n="nav.services">Servicios</a>
+            <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+            <a href="#contact" data-i18n="nav.contact">Contacto</a>
         </nav>
 
-        <!-- Theme Toggle -->
-        <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
-            <i class="fas fa-moon"></i>
-        </button>
+        <!-- Toggle Buttons -->
+        <div class="header-toggles">
+            <button class="lang-toggle" id="lang-toggle" aria-label="Change language">
+                <span class="lang-text">EN</span>
+            </button>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
 
         <!-- Menubar -->
         <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">
@@ -117,10 +121,10 @@
 
             <div class="content">
                 <div class="text">
-                    <h2 class="animate-fade-in" style="animation-delay: 0.2s">Hola! 👋</h2>
-                    <h1 class="animate-fade-in" style="animation-delay: 0.4s">Soy <span class="typing-text">desarrollador web</span></h1>
-                    <p class="animate-fade-in" style="animation-delay: 0.6s">Con mas de un año de experiencia en mejorar la vida de los usuarios a través de la web.</p>
-                    <a href="#about" class="btn animate-fade-in" style="animation-delay: 0.8s">Conoceme!<i class="fas fa-user"></i></a>
+                    <h2 class="animate-fade-in" style="animation-delay: 0.2s" data-i18n="home.greeting">Hola! 👋</h2>
+                    <h1 class="animate-fade-in" style="animation-delay: 0.4s" data-i18n="home.title">Soy <span class="typing-text">desarrollador web</span></h1>
+                    <p class="animate-fade-in" style="animation-delay: 0.6s" data-i18n="home.description">Con mas de un año de experiencia en mejorar la vida de los usuarios a través de la web.</p>
+                    <a href="#about" class="btn animate-fade-in" style="animation-delay: 0.8s" data-i18n="home.cta">Conoceme!<i class="fas fa-user"></i></a>
                 </div>
             </div>
     
@@ -145,8 +149,8 @@
                 <img src="assets/images/About/Fran.jpg" alt="About-Image"/>
             </div>
             <div class="heading">
-                <h2>Acerca de <span>mí</span></h2>
-                    <p class="text">
+                <h2 data-i18n="about.title">Acerca de <span>mí</span></h2>
+                    <p class="text" data-i18n="about.description">
                     ¡Hola! Soy <strong>Fran Mayer</strong>, desarrollador <strong>frontend</strong> con pasión por crear interfaces web modernas, funcionales y centradas en la experiencia del usuario.  
                     <br><br>
                     Hace un par de años comencé mi camino en el mundo del desarrollo web, y desde entonces no he dejado de aprender ni de desafiarme. Actualmente, estoy ampliando mis conocimientos hacia el área de <strong>QA Automation</strong>, con el objetivo de convertirme en un profesional integral que entienda tanto el desarrollo como la calidad del software.  
@@ -168,27 +172,27 @@
         </div>
 
         <div class="btn-container">
-            <a href="./assets/images/Portfolio/CV - Franco Mayer.pdf" class="btn download" download>Descargar CV <i class="fas fa-download"></i></a>
+            <a href="./assets/images/Portfolio/CV - Franco Mayer.pdf" class="btn download" download data-i18n="about.downloadCV">Descargar CV <i class="fas fa-download"></i></a>
         </div>
 
         
         <div class="skill-container" id="skills">
 
             <div class="heading">
-                <h2>Mis <span>habilidades</span></h2>
+                <h2 data-i18n="skills.title">Mis <span>habilidades</span></h2>
             </div>
     
             <div class="skills">
                 <div class="skill-item">
-                    <img src="./assets/images/About/html5.svg" alt="HTML logo" style="width: 8rem;">
-                    <img src="./assets/images/About/css.svg" alt="CSS logo" style="width: 8rem;">
-                    <img src="./assets/images/About/javascript.svg" alt="js logo" style="width: 8rem;">
-                    <img src="./assets/images/About/bootstrap.svg" alt="bootstrap logo" style="width: 8rem">
-                    <img src="./assets/images/About/sass.svg" alt="Sass logo" style="width: 8rem;">
-                    <img src="./assets/images/About/reactts-svgrepo-com.svg" alt="React logo" style="width: 8rem;">
-                    <img src="./assets/images/About/php-svgrepo-com.svg" alt="PHP logo" style="width: 8rem;">
-                    <img src="./assets/images/About/mysql-logo-svgrepo-com.svg" alt="MySQL logo" style="width: 8rem;">
-                    <img src="./assets/images/About/Cypress.svg" alt="Cypress logo" style="width: 8rem;">
+                    <img src="./assets/images/About/html5.svg" alt="HTML logo">
+                    <img src="./assets/images/About/css.svg" alt="CSS logo">
+                    <img src="./assets/images/About/javascript.svg" alt="js logo">
+                    <img src="./assets/images/About/bootstrap.svg" alt="bootstrap logo">
+                    <img src="./assets/images/About/sass.svg" alt="Sass logo">
+                    <img src="./assets/images/About/reactts-svgrepo-com.svg" alt="React logo">
+                    <img src="./assets/images/About/php-svgrepo-com.svg" alt="PHP logo">
+                    <img src="./assets/images/About/mysql-logo-svgrepo-com.svg" alt="MySQL logo">
+                    <img src="./assets/images/About/Cypress.svg" alt="Cypress logo">
                 </div>
             </div>
         </div>
@@ -202,7 +206,7 @@
     <section class="qualification" id="qualification">
 
         <div class="heading">
-            <h2>Mi <span>curriculum</span></h2>
+            <h2 data-i18n="qualification.title">Mi <span>curriculum</span></h2>
         </div>
 
         <div class="box-container">
@@ -212,37 +216,36 @@
                 <div class="experience-item">
                     <i class="fas fa-graduation-cap"></i>
                     <div class="content">
-                        <span>Jul 2024 - Actual</span>
-                        <h3>QA Automation / Freelance </h3>
-                        <p>Desarrollé scripts E2E para validar flujos principales de la aplicación (login, navegación, formularios,
-UI). Validación de códigos de estado, estructuras de datos y respuestas negativas </p>
+                        <span data-i18n="qualification.job1.date">Jul 2024 - Actual</span>
+                        <h3 data-i18n="qualification.job1.title">QA Automation / Freelance </h3>
+                        <p data-i18n="qualification.job1.description">Desarrollé scripts E2E para validar flujos principales de la aplicación (login, navegación, formularios, UI). Validación de códigos de estado, estructuras de datos y respuestas negativas</p>
                     </div>
                 </div>
 
                 <div class="experience-item">
                     <i class="fas fa-graduation-cap"></i>
                     <div class="content">
-                        <span>Feb 2024 - Actual</span>
-                        <h3>Technical Support N1 / FUDO</h3>
-                        <p>Soporte técnico de primera linea, brindando ayuda a usuarios a configurar el software para locales de gastronomia.</p>
+                        <span data-i18n="qualification.job2.date">Feb 2024 - Actual</span>
+                        <h3 data-i18n="qualification.job2.title">Technical Support N1 / FUDO</h3>
+                        <p data-i18n="qualification.job2.description">Soporte técnico de primera linea, brindando ayuda a usuarios a configurar el software para locales de gastronomia.</p>
                     </div>
                 </div>
 
                 <div class="experience-item">
                     <i class="fas fa-graduation-cap"></i>
                     <div class="content">
-                        <span>2023 - 2024</span>
-                        <h3>Front end dev / SCTR Group LLC</h3>
-                        <p>Proyecto ePlay. Optimicé y desarrollé animaciones en CSS, Javascript, React. Ayudé a mejorar la experiencia de usuario (UX/UI).</p>
+                        <span data-i18n="qualification.job3.date">2023 - 2024</span>
+                        <h3 data-i18n="qualification.job3.title">Front end dev / SCTR Group LLC</h3>
+                        <p data-i18n="qualification.job3.description">Proyecto ePlay. Optimicé y desarrollé animaciones en CSS, Javascript, React. Ayudé a mejorar la experiencia de usuario (UX/UI).</p>
                     </div>
                 </div>
     
                 <div class="experience-item">
                     <i class="fas fa-graduation-cap"></i>
                     <div class="content">
-                        <span>Ene 2022 - Dic 2023</span>
-                        <h3>Desarrollador Front End, QA Tester/ Agencia de marketing HUB</h3>
-                        <p>Creé del sitio web de la agencia para mostrar sus servicios que nosotros brindábamos. Implemente casos de prueba sobre el mismo proyecto para mejorar la accesibilidad y funcionabilidad del mismo. Colaboré con el cliente y diseñadores para priorizar y reprobar errores corregidos.</p>
+                        <span data-i18n="qualification.job4.date">Ene 2022 - Dic 2023</span>
+                        <h3 data-i18n="qualification.job4.title">Desarrollador Front End, QA Tester/ Agencia de marketing HUB</h3>
+                        <p data-i18n="qualification.job4.description">Creé del sitio web de la agencia para mostrar sus servicios que nosotros brindábamos. Implemente casos de prueba sobre el mismo proyecto para mejorar la accesibilidad y funcionabilidad del mismo. Colaboré con el cliente y diseñadores para priorizar y reprobar errores corregidos.</p>
                     </div>
                 </div>
 
@@ -255,9 +258,9 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
                 <div class="experience-item">
                     <i class="fas fa-briefcase"></i>
                     <div class="content">
-                        <span>2021 - 2022</span>
-                        <h3>Customer Support Agent / APEX AMERICA BPO</h3>
-                        <p>Atención telefonica del servicio de Loyalty para la empresa Claro.</p>
+                        <span data-i18n="qualification.job5.date">2021 - 2022</span>
+                        <h3 data-i18n="qualification.job5.title">Customer Support Agent / APEX AMERICA BPO</h3>
+                        <p data-i18n="qualification.job5.description">Atención telefonica del servicio de Loyalty para la empresa Claro.</p>
                     </div>
                 </div>
     
@@ -275,45 +278,45 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
     <section class="service" id="service">
 
         <div class="heading">
-            <h2>Mis <span>servicios</span></h2>
+            <h2 data-i18n="services.title">Mis <span>servicios</span></h2>
         </div>
 
         <div class="box-container">
 
             <div class="service-item">
                 <i class="fas fa-code"></i>
-                <h3>Desarrollo Web</h3>
-                <p>Desarrollo, creacion y diseño de paginas webs, landing pages y E-commerce</p>
+                <h3 data-i18n="services.webdev.title">Desarrollo Web</h3>
+                <p data-i18n="services.webdev.description">Desarrollo, creacion y diseño de paginas webs, landing pages y E-commerce</p>
             </div>
 
             <div class="service-item">
                 <i class="fas fa-paint-brush"></i>
-                <h3>Diseño Web</h3>
-                <p>Puedo brindarte una mirada objetiva sobre la interfaz de tu sitio para que sea mas efectivo y dinamico.</p>
+                <h3 data-i18n="services.webdesign.title">Diseño Web</h3>
+                <p data-i18n="services.webdesign.description">Puedo brindarte una mirada objetiva sobre la interfaz de tu sitio para que sea mas efectivo y dinamico.</p>
             </div>
 
             <div class="service-item">
                 <i class="fas fa-comments"></i>
-                <h3>Consultoria</h3>
-                <p>Servicio de asistencia ante cualquier duda con respecto a tu sitio web nuevo o que ya dispongas.</p>
+                <h3 data-i18n="services.consulting.title">Consultoria</h3>
+                <p data-i18n="services.consulting.description">Servicio de asistencia ante cualquier duda con respecto a tu sitio web nuevo o que ya dispongas.</p>
             </div>
 
             <div class="service-item">
                 <i class="fas fa-bullhorn"></i>
-                <h3>Marketing digital</h3>
-                <p>Poseo experiencia en marketing digital para fomentar el crecimiento de tu negocio a través de la web.</p>
+                <h3 data-i18n="services.marketing.title">Marketing digital</h3>
+                <p data-i18n="services.marketing.description">Poseo experiencia en marketing digital para fomentar el crecimiento de tu negocio a través de la web.</p>
             </div>
 
             <div class="service-item">
                 <i class="far fa-file-video"></i>
-                <h3>Hosting y Dominios</h3>
-                <p>Brindar asistencia en los mejores host y compra de dominios para la web de tu emprendimiento.</p>
+                <h3 data-i18n="services.hosting.title">Hosting y Dominios</h3>
+                <p data-i18n="services.hosting.description">Brindar asistencia en los mejores host y compra de dominios para la web de tu emprendimiento.</p>
             </div>
 
             <div class="service-item">
                 <i class="fas fa-search-dollar"></i>
-                <h3>SEO Marketing</h3>
-                <p>Posicionamiento SEO, es decir, como los motores de busqueda posicionan tu sitio en internet.</p>
+                <h3 data-i18n="services.seo.title">SEO Marketing</h3>
+                <p data-i18n="services.seo.description">Posicionamiento SEO, es decir, como los motores de busqueda posicionan tu sitio en internet.</p>
             </div>
 
         </div>
@@ -327,16 +330,16 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
     <section class="portfolio" id="portfolio">
 
         <div class="heading">
-            <h2>Mi <span>portfolio</span></h2>
+            <h2 data-i18n="portfolio.title">Mi <span>portfolio</span></h2>
         </div>
 
         <div class="gallery">
 
             <ul class="controls">
-                <li class="button btn active" data-filter="all">General</li>
-                <li class="button btn" data-filter="QA">QA</li>
-                <li class="button btn" data-filter="Front-end">Front-end</li>
-                <li class="button btn" data-filter="prox">Proximamente...</li>
+                <li class="button btn active" data-filter="all" data-i18n="portfolio.filter.all">General</li>
+                <li class="button btn" data-filter="QA" data-i18n="portfolio.filter.qa">QA</li>
+                <li class="button btn" data-filter="Front-end" data-i18n="portfolio.filter.frontend">Front-end</li>
+                <li class="button btn" data-filter="prox" data-i18n="portfolio.filter.coming">Proximamente...</li>
             </ul>
     
             <div class="box-container">
@@ -442,7 +445,7 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
             </div>
 
             <div class="btn-center-container">
-                <a href="https://github.com/FranMayer" class="btn btn-center" target="_blank">Ver proyectos en GitHub <i class="fab fa-github"></i></a>
+                <a href="https://github.com/FranMayer" class="btn btn-center" target="_blank" data-i18n="portfolio.githubBtn">Ver proyectos en GitHub <i class="fab fa-github"></i></a>
             </div>
 
     </section>
@@ -456,19 +459,19 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
     <section class="contact" id="contact">
 
         <div class="heading">
-            <h2><span>Contacta</span>me</h2>
+            <h2 data-i18n="contact.title"><span>Contacta</span>me</h2>
         </div>
 
         <div class="box-container">
 
             <div class="contact-info">
 
-                <h3>Datos de contacto</h3>
+                <h3 data-i18n="contact.infoTitle">Datos de contacto</h3>
 
-                <p>Disponible para comenzar a trabajar juntos</p>
+                <p data-i18n="contact.infoSubtitle">Disponible para comenzar a trabajar juntos</p>
     
                 <div class="info-item">
-                    <h4>Telefono:</h4>
+                    <h4 data-i18n="contact.phone">Telefono:</h4>
                     <div class="detail">
                         <div class="fas fa-phone"></div>
                         <p>(+54) 9 0351-157883076</p>
@@ -476,7 +479,7 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
                 </div>
     
                 <div class="info-item">
-                    <h4>Email:</h4>
+                    <h4 data-i18n="contact.email">Email:</h4>
                     <div class="detail">
                         <div class="fas fa-envelope"></div>
                         <p class="gmail">Francomayer@outlook.com</p>
@@ -501,11 +504,11 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
     
             <form  action="https://getform.io/f/06aee746-8922-45d8-8372-0f2951714d3e" method="POST" class="contact-form" >
                     
-                <input type="text" name="name" class="box" id="name" placeholder="Nombre" required />
-                <input type="email" name="email" class="box" id="email" placeholder="Email" required />
-                <input type="text" name="subject" class="box" id="subject" placeholder="Motivo" required />
-                <textarea cols="30" rows="10" name="comment" id="comment" class="box" placeholder="Escribe aqui tu mensaje..."></textarea>
-                <button type="submit" class="btn" name="submit" id="submit">Enviar</button>
+                <input type="text" name="name" class="box" id="name" data-i18n-placeholder="contact.form.name" placeholder="Nombre" required />
+                <input type="email" name="email" class="box" id="email" data-i18n-placeholder="contact.form.email" placeholder="Email" required />
+                <input type="text" name="subject" class="box" id="subject" data-i18n-placeholder="contact.form.subject" placeholder="Motivo" required />
+                <textarea cols="30" rows="10" name="comment" id="comment" class="box" data-i18n-placeholder="contact.form.message" placeholder="Escribe aqui tu mensaje..."></textarea>
+                <button type="submit" class="btn" name="submit" id="submit" data-i18n="contact.form.submit">Enviar</button>
                 
                 
                 
@@ -528,7 +531,7 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
         </div>
 
         <div class="content">
-            <p>Hecho por <span>Fran Mayer</span> | Let's do this!</p>
+            <p data-i18n="footer.text">Hecho por <span>Fran Mayer</span> | Let's do this!</p>
         </div>
     </footer>
     <!-------------------- Footer Area (End) -------------------->
@@ -555,17 +558,8 @@ UI). Validación de códigos de estado, estructuras de datos y respuestas negati
     <script src="assets/js/testi-slider.js"></script>
     <script src="assets/js/blog-slider.js"></script>
 
-    <!---------------- Custom Script ---------------->
-
-    <!-- Typed Script -->
-    <script>
-        var typed = new Typed('.typing-text', {
-
-            strings: ['proactividad', 'innovación', 'versatilidad', 'desarrollador web'],
-            typeSpeed: 110,
-            loop: true
-        });
-    </script>
+    <!-- i18n (Language System) -->
+    <script src="assets/js/i18n.js"></script>
 
 </body>
 </html>

@@ -339,6 +339,12 @@ header .logo h2{
     letter-spacing: 0.2rem;
 }
 
+header .logo .logo-img {
+    width: 9rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
 header .navbar a{
     color: var(--white);
     font-size: 1.6rem;
@@ -376,6 +382,8 @@ header .menu-btn {
     cursor: pointer;
     padding: 0.5rem;
     z-index: 1001;
+    align-items: center;
+    justify-content: center;
 }
 
 header .menu-btn i {
@@ -393,18 +401,56 @@ header .menu-btn i.fa-times {
     transform: rotate(180deg);
 }
 
+/* Header Toggle Buttons Container */
+.header-toggles {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+/* Language Toggle Button */
+.lang-toggle {
+    background: transparent;
+    border: 2px solid var(--purple);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.lang-toggle .lang-text {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--purple);
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.lang-toggle:hover {
+    background: var(--purple);
+    transform: scale(1.1);
+}
+
+.lang-toggle:hover .lang-text {
+    color: var(--white);
+}
+
 /* Theme Toggle Button */
 .theme-toggle {
     background: transparent;
     border: 2px solid var(--purple);
     border-radius: 50%;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 1.5rem;
     transition: all 0.3s ease;
 }
 
@@ -775,8 +821,8 @@ header .menu-btn i.fa-times {
 }
 
 .skill-item img {
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
     object-fit: contain;
     padding: 1.5rem;
     background: linear-gradient(145deg, rgba(10, 23, 33, 0.8), rgba(0, 91, 144, 0.1));
@@ -1117,7 +1163,7 @@ header .menu-btn i.fa-times {
 .portfolio .box-container{
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
     gap: 2rem;
     padding: 3rem 0;
     position: relative;
