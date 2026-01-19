@@ -15,7 +15,7 @@ const translations = {
         home: {
             greeting: "Hola! 👋",
             title: 'Soy <span class="typing-text"></span>',
-            description: "Con mas de un año de experiencia en mejorar la vida de los usuarios a través de la web.",
+            description: "Con más de 3 años de experiencia en mejorar la vida de los usuarios a través de la web.",
             cta: 'Conoceme!<i class="fas fa-user"></i>'
         },
         // Typed.js strings
@@ -42,29 +42,24 @@ const translations = {
         qualification: {
             title: 'Mi <span>curriculum</span>',
             job1: {
-                date: "Jul 2024 - Actual",
-                title: "QA Automation / Freelance",
-                description: "Desarrollé scripts E2E para validar flujos principales de la aplicación (login, navegación, formularios, UI). Validación de códigos de estado, estructuras de datos y respuestas negativas"
+                date: "Sep 2025 - Actual",
+                title: "QA Manual / Automation - PinApp (Innova Schools)",
+                description: "Desarrollé e implementé test cases en distintos proyectos. Creé scripts E2E para validar flujos principales de la aplicación (login, navegación, formularios, UI). Realicé reporte y seguimiento de bugs."
             },
             job2: {
-                date: "Feb 2024 - Actual",
-                title: "Technical Support N1 / FUDO",
-                description: "Soporte técnico de primera linea, brindando ayuda a usuarios a configurar el software para locales de gastronomia."
+                date: "Feb 2024 - Sep 2024",
+                title: "Soporte Técnico - FUDO",
+                description: "Brindé atención al cliente personalizada a través de chat, teléfono y correo electrónico, ofreciendo soluciones efectivas y manteniendo una comunicación clara y empática. Proporcioné soporte técnico integral para software de gestión alimentaria, resolviendo incidencias y garantizando su correcto funcionamiento."
             },
             job3: {
-                date: "2023 - 2024",
-                title: "Front end dev / SCTR Group LLC",
-                description: "Proyecto ePlay. Optimicé y desarrollé animaciones en CSS, Javascript, React. Ayudé a mejorar la experiencia de usuario (UX/UI)."
+                date: "2022 - 2024",
+                title: "Front End / QA - SCTR Group (Proyecto E-Play)",
+                description: "Asistí al equipo frontend revisando código y documentando buenas prácticas, adquiriendo experiencia en flujos de trabajo reales. Brindé apoyo a desarrolladores senior durante la implementación de funcionalidades, aprendiendo sobre estándares de la industria. Diseñé test cases para ejecutar pruebas manuales dentro de la aplicación."
             },
             job4: {
-                date: "Ene 2022 - Dic 2023",
-                title: "Desarrollador Front End, QA Tester/ Agencia de marketing HUB",
-                description: "Creé del sitio web de la agencia para mostrar sus servicios que nosotros brindábamos. Implemente casos de prueba sobre el mismo proyecto para mejorar la accesibilidad y funcionabilidad del mismo. Colaboré con el cliente y diseñadores para priorizar y reprobar errores corregidos."
-            },
-            job5: {
-                date: "2021 - 2022",
-                title: "Customer Support Agent / APEX AMERICA BPO",
-                description: "Atención telefonica del servicio de Loyalty para la empresa Claro."
+                date: "2022 - 2024",
+                title: "Soporte Técnico / QA - Funiversity",
+                description: "Brindé soporte técnico a usuarios de la institución. Creé la base de conocimiento del área para mantener la información organizada. Desarrollé automatizaciones para facilitar la comunicación a través del IRM."
             }
         },
         // Services Section
@@ -72,27 +67,27 @@ const translations = {
             title: 'Mis <span>servicios</span>',
             webdev: {
                 title: "Desarrollo Web",
-                description: "Desarrollo, creacion y diseño de paginas webs, landing pages y E-commerce"
+                description: "Desarrollo, creación y diseño de páginas webs, landing pages y E-commerce."
             },
             webdesign: {
                 title: "Diseño Web",
-                description: "Puedo brindarte una mirada objetiva sobre la interfaz de tu sitio para que sea mas efectivo y dinamico."
+                description: "Puedo brindarte una mirada objetiva sobre la interfaz de tu sitio para que sea más efectivo y dinámico."
+            },
+            qatesting: {
+                title: "QA Testing",
+                description: "Testing manual y automatizado de aplicaciones web. Pruebas E2E, API testing y reportes de bugs detallados."
+            },
+            qualityConsulting: {
+                title: "Consultoría de Calidad",
+                description: "Revisión de código, implementación de buenas prácticas y estrategias de testing para mejorar la calidad de tu software."
             },
             consulting: {
-                title: "Consultoria",
+                title: "Consultoría",
                 description: "Servicio de asistencia ante cualquier duda con respecto a tu sitio web nuevo o que ya dispongas."
-            },
-            marketing: {
-                title: "Marketing digital",
-                description: "Poseo experiencia en marketing digital para fomentar el crecimiento de tu negocio a través de la web."
             },
             hosting: {
                 title: "Hosting y Dominios",
-                description: "Brindar asistencia en los mejores host y compra de dominios para la web de tu emprendimiento."
-            },
-            seo: {
-                title: "SEO Marketing",
-                description: "Posicionamiento SEO, es decir, como los motores de busqueda posicionan tu sitio en internet."
+                description: "Asistencia en los mejores hosts y compra de dominios para la web de tu emprendimiento."
             }
         },
         // Portfolio Section
@@ -101,8 +96,7 @@ const translations = {
             filter: {
                 all: "General",
                 qa: "QA",
-                frontend: "Front-end",
-                coming: "Proximamente..."
+                frontend: "Front-end"
             },
             githubBtn: 'Ver proyectos en GitHub <i class="fab fa-github"></i>'
         },
@@ -141,7 +135,7 @@ const translations = {
         home: {
             greeting: "Hello! 👋",
             title: 'I\'m a <span class="typing-text"></span>',
-            description: "With over a year of experience improving users' lives through the web.",
+            description: "With over 3 years of experience improving users' lives through the web.",
             cta: 'About me!<i class="fas fa-user"></i>'
         },
         // Typed.js strings
@@ -168,29 +162,24 @@ const translations = {
         qualification: {
             title: 'My <span>resume</span>',
             job1: {
-                date: "Jul 2024 - Present",
-                title: "QA Automation / Freelance",
-                description: "Developed E2E scripts to validate main application flows (login, navigation, forms, UI). Validation of status codes, data structures, and negative responses"
+                date: "Sep 2025 - Present",
+                title: "QA Manual / Automation - PinApp (Innova Schools)",
+                description: "Developed and implemented test cases across multiple projects. Created E2E scripts to validate main application flows (login, navigation, forms, UI). Reported and tracked bugs."
             },
             job2: {
-                date: "Feb 2024 - Present",
-                title: "Technical Support N1 / FUDO",
-                description: "First-line technical support, helping users configure software for gastronomy venues."
+                date: "Feb 2024 - Sep 2024",
+                title: "Technical Support - FUDO",
+                description: "Provided personalized customer support via chat, phone, and email, delivering effective solutions while maintaining clear and empathetic communication. Delivered comprehensive technical support for food management software, resolving incidents and ensuring proper functionality."
             },
             job3: {
-                date: "2023 - 2024",
-                title: "Front end dev / SCTR Group LLC",
-                description: "ePlay Project. Optimized and developed animations in CSS, Javascript, React. Helped improve user experience (UX/UI)."
+                date: "2022 - 2024",
+                title: "Front End / QA - SCTR Group (E-Play Project)",
+                description: "Assisted the frontend team by reviewing code and documenting best practices, gaining experience in real development workflows. Supported senior developers during feature implementation, learning about industry standards. Designed test cases to execute manual testing within the application."
             },
             job4: {
-                date: "Jan 2022 - Dec 2023",
-                title: "Front End Developer, QA Tester / HUB Marketing Agency",
-                description: "Created the agency's website to showcase our services. Implemented test cases on the same project to improve accessibility and functionality. Collaborated with clients and designers to prioritize and retest fixed bugs."
-            },
-            job5: {
-                date: "2021 - 2022",
-                title: "Customer Support Agent / APEX AMERICA BPO",
-                description: "Phone support for Claro's Loyalty service."
+                date: "2022 - 2024",
+                title: "Technical Support / QA - Funiversity",
+                description: "Provided technical support to institution users. Created the department's knowledge base to keep information organized. Developed automations to streamline communication through the IRM."
             }
         },
         // Services Section
@@ -198,27 +187,27 @@ const translations = {
             title: 'My <span>services</span>',
             webdev: {
                 title: "Web Development",
-                description: "Development, creation and design of websites, landing pages and E-commerce"
+                description: "Development, creation and design of websites, landing pages and E-commerce."
             },
             webdesign: {
                 title: "Web Design",
                 description: "I can provide an objective view of your site's interface to make it more effective and dynamic."
             },
+            qatesting: {
+                title: "QA Testing",
+                description: "Manual and automated testing of web applications. E2E testing, API testing and detailed bug reports."
+            },
+            qualityConsulting: {
+                title: "Quality Consulting",
+                description: "Code review, implementation of best practices and testing strategies to improve your software quality."
+            },
             consulting: {
                 title: "Consulting",
                 description: "Assistance service for any questions about your new or existing website."
             },
-            marketing: {
-                title: "Digital Marketing",
-                description: "I have experience in digital marketing to foster your business growth through the web."
-            },
             hosting: {
                 title: "Hosting & Domains",
-                description: "Provide assistance on the best hosts and domain purchases for your business website."
-            },
-            seo: {
-                title: "SEO Marketing",
-                description: "SEO positioning, meaning how search engines rank your site on the internet."
+                description: "Assistance on the best hosts and domain purchases for your business website."
             }
         },
         // Portfolio Section
@@ -227,8 +216,7 @@ const translations = {
             filter: {
                 all: "All",
                 qa: "QA",
-                frontend: "Front-end",
-                coming: "Coming soon..."
+                frontend: "Front-end"
             },
             githubBtn: 'View projects on GitHub <i class="fab fa-github"></i>'
         },

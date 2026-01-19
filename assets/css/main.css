@@ -872,7 +872,7 @@ header .menu-btn i.fa-times {
     z-index: 1;
 }
 
-.education, .experience {
+.education, .experience, .experience-timeline {
     width: 100%; 
     max-width: 900px; 
     margin: 0 auto 2rem auto;
