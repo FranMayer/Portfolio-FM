@@ -600,6 +600,8 @@ header .menu-btn i.fa-times {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding: 0 8%;
+    gap: 4rem;
 }
 
 .home .image{
@@ -617,6 +619,19 @@ header .menu-btn i.fa-times {
     height: auto;
     object-fit: contain;
     filter: drop-shadow(0 10px 30px rgba(0, 91, 144, 0.3));
+}
+
+.home .image img.avatar-home {
+    max-height: 32rem;
+    max-width: 32rem;
+    border-radius: 50%;
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.3));
+    transition: all 0.4s ease;
+}
+
+.home .image img.avatar-home:hover {
+    transform: scale(1.03) translateY(-5px);
+    filter: drop-shadow(0 15px 35px rgba(0, 91, 144, 0.4));
 }
 
 .home .content{
@@ -673,33 +688,21 @@ header .menu-btn i.fa-times {
     line-height: 1.5;
 }
 
-.typing {
-    overflow: hidden; 
-    display: inline-block; 
-    border-right: 3px solid #005b90; 
-    white-space: nowrap;  
-    animation: typing 2s steps(40, end), blink-caret 0.9s step-end infinite; 
-    line-height: 28px;
-    margin-bottom: -2px;
-
+/* Fade Text Animation */
+.fade-text {
+    color: var(--purple);
+    display: inline-block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    min-width: 200px;
 }
 
-@keyframes typing {
-    from {
-        width: 0; 
-    }
-    to {
-        width: 50%; 
-    }
+.fade-text.fade-out {
+    opacity: 0;
 }
 
-@keyframes blink-caret {
-    from, to {
-        border-color: transparent; 
-    }
-    50% {
-        border-color: #005b90; 
-    }
+.fade-text.fade-in {
+    opacity: 1;
 }
 /*--------------------- 4- Home Area CSS (End) ---------------------*/
 

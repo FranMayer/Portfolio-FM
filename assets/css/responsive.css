@@ -262,6 +262,11 @@
         display: block;
     }
     
+    .home .image img.avatar-home {
+        max-height: 20rem;
+        max-width: 20rem;
+    }
+    
     .home .content h2 {
         font-size: 1.8rem;
         text-align: center;
@@ -271,6 +276,10 @@
         font-size: 2.4rem;
         padding: 0.3rem 0;
         text-align: center;
+    }
+    
+    .fade-text {
+        min-width: auto;
     }
     
     .home .content p {
@@ -546,6 +555,11 @@
         max-width: 15rem;
     }
     
+    .home .image img.avatar-home {
+        max-height: 16rem;
+        max-width: 16rem;
+    }
+    
     .home .content h1 {
         font-size: 2.4rem;
     }
@@ -637,6 +651,11 @@
     }
     
     .home .image img {
+        max-height: 14rem;
+        max-width: 14rem;
+    }
+    
+    .home .image img.avatar-home {
         max-height: 14rem;
         max-width: 14rem;
     }

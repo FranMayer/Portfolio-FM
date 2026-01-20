@@ -14,24 +14,21 @@ const translations = {
         // Home Section
         home: {
             greeting: "Hola! 👋",
-            title: 'Soy <span class="typing-text"></span>',
             description: "Con más de 3 años de experiencia en mejorar la vida de los usuarios a través de la web.",
             cta: 'Conoceme!<i class="fas fa-user"></i>'
         },
-        // Typed.js strings
-        typedStrings: ['proactividad', 'innovación', 'versatilidad', 'desarrollador web'],
         // About Section
         about: {
             title: 'Acerca de <span>mí</span>',
-            description: `¡Hola! Soy <strong>Fran Mayer</strong>, desarrollador <strong>frontend</strong> con pasión por crear interfaces web modernas, funcionales y centradas en la experiencia del usuario.  
+            description: `¡Hola! Soy <strong>Fran Mayer</strong>, un profesional de IT con un sólido perfil en <strong>Frontend Development</strong> y actualmente desempeñándome como <strong>QA Engineer</strong>. Esta combinación me permite no solo construir interfaces modernas y funcionales, sino asegurar que el software sea robusto y centrado en la experiencia del usuario.
                     <br><br>
-                    Hace un par de años comencé mi camino en el mundo del desarrollo web, y desde entonces no he dejado de aprender ni de desafiarme. Actualmente, estoy ampliando mis conocimientos hacia el área de <strong>QA Automation</strong>, con el objetivo de convertirme en un profesional integral que entienda tanto el desarrollo como la calidad del software.  
+                    Actualmente, formo parte del equipo de <strong>PinApp</strong>, donde trabajo en el proyecto <strong>Innova Schools</strong>. En este rol, aplico mi mentalidad de desarrollador para elevar los estándares de calidad, integrando mis conocimientos técnicos en la detección de fallos y la optimización de procesos desde la raíz del código.
                     <br><br>
-                    Disfruto enfrentar nuevos retos, escribir código limpio y seguir las mejores prácticas del sector. Me motiva mantenerme actualizado con las últimas tendencias tecnológicas y aprender constantemente.  
+                    Mi trayectoria comenzó en el desarrollo web, lo que me brindó una visión profunda sobre cómo se estructuran y renderizan las aplicaciones. Hoy, utilizo esa base para especializarme en <strong>QA Automation</strong>, buscando el equilibrio perfecto entre escribir código limpio y garantizar que cada entrega sea impecable.
                     <br><br>
-                    Fuera del código, me gusta el <strong>fútbol</strong>, la <strong>naturaleza</strong> y compartir conocimientos con otros apasionados de la tecnología. Creo firmemente en el poder de la comunidad y en el aprendizaje colaborativo.  
+                    Disfruto enfrentar retos técnicos, colaborar en equipos ágiles y mantenerme al día con las últimas tendencias del sector. Fuera del código, me apasiona el <strong>fútbol</strong>, la <strong>naturaleza</strong> y el aprendizaje colaborativo dentro de la comunidad tecnológica.
                     <br><br>
-                    Si buscás a alguien comprometido, curioso y con ganas de seguir creciendo, ¡me encantaría que conectemos!`,
+                    Si buscas a alguien que entienda el ciclo de vida del software de principio a fin —desde la creación de la interfaz hasta su validación final— ¡me encantaría que conectemos!`,
             downloadCV: 'Descargar CV <i class="fas fa-download"></i>'
         },
         // Skills Section
@@ -134,24 +131,21 @@ const translations = {
         // Home Section
         home: {
             greeting: "Hello! 👋",
-            title: 'I\'m a <span class="typing-text"></span>',
             description: "With over 3 years of experience improving users' lives through the web.",
             cta: 'About me!<i class="fas fa-user"></i>'
         },
-        // Typed.js strings
-        typedStrings: ['proactivity', 'innovation', 'versatility', 'web developer'],
         // About Section
         about: {
             title: 'About <span>me</span>',
-            description: `Hi! I'm <strong>Fran Mayer</strong>, a <strong>frontend</strong> developer passionate about creating modern, functional web interfaces focused on user experience.
+            description: `Hi! I'm <strong>Fran Mayer</strong>, an IT professional with a solid background in <strong>Frontend Development</strong> and currently working as a <strong>QA Engineer</strong>. This combination allows me not only to build modern and functional interfaces, but also to ensure that software is robust and user-experience focused.
                     <br><br>
-                    A couple of years ago I started my journey in web development, and since then I haven't stopped learning or challenging myself. Currently, I'm expanding my knowledge into <strong>QA Automation</strong>, with the goal of becoming a well-rounded professional who understands both development and software quality.
+                    Currently, I'm part of the <strong>PinApp</strong> team, where I work on the <strong>Innova Schools</strong> project. In this role, I apply my developer mindset to elevate quality standards, integrating my technical knowledge in fault detection and process optimization from the code's root.
                     <br><br>
-                    I enjoy facing new challenges, writing clean code, and following industry best practices. I'm motivated to stay updated with the latest tech trends and constantly learn.
+                    My journey started in web development, which gave me a deep understanding of how applications are structured and rendered. Today, I use that foundation to specialize in <strong>QA Automation</strong>, seeking the perfect balance between writing clean code and ensuring every delivery is flawless.
                     <br><br>
-                    Outside of code, I enjoy <strong>football</strong>, <strong>nature</strong>, and sharing knowledge with other tech enthusiasts. I firmly believe in the power of community and collaborative learning.
+                    I enjoy tackling technical challenges, collaborating in agile teams, and staying up to date with the latest industry trends. Outside of code, I'm passionate about <strong>football</strong>, <strong>nature</strong>, and collaborative learning within the tech community.
                     <br><br>
-                    If you're looking for someone committed, curious, and eager to keep growing, I'd love to connect!`,
+                    If you're looking for someone who understands the software lifecycle from start to finish —from interface creation to final validation— I'd love to connect!`,
             downloadCV: 'Download CV <i class="fas fa-download"></i>'
         },
         // Skills Section
@@ -246,7 +240,6 @@ const translations = {
 class I18n {
     constructor() {
         this.currentLang = localStorage.getItem('language') || 'es';
-        this.typedInstance = null;
     }
 
     init() {
@@ -307,26 +300,6 @@ class I18n {
         document.title = lang === 'es' 
             ? 'Franco Mayer | Desarrollador Web' 
             : 'Franco Mayer | Web Developer';
-
-        // Reinitialize Typed.js with new strings
-        this.updateTyped(t.typedStrings);
-    }
-
-    updateTyped(strings) {
-        // Destroy existing instance if it exists
-        if (this.typedInstance) {
-            this.typedInstance.destroy();
-        }
-
-        // Create new instance with translated strings
-        const typingElement = document.querySelector('.typing-text');
-        if (typingElement && typeof Typed !== 'undefined') {
-            this.typedInstance = new Typed('.typing-text', {
-                strings: strings,
-                typeSpeed: 110,
-                loop: true
-            });
-        }
     }
 }
 
