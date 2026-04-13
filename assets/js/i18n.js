@@ -20,15 +20,15 @@ const translations = {
         // About Section
         about: {
             title: 'Acerca de <span>mí</span>',
-            description: `¡Hola! Soy <strong>Fran Mayer</strong>, un profesional de IT con un sólido perfil en <strong>Frontend Development</strong> y actualmente desempeñándome como <strong>QA Engineer</strong>. Esta combinación me permite no solo construir interfaces modernas y funcionales, sino asegurar que el software sea robusto y centrado en la experiencia del usuario.
+            description: `¡Hola! Soy <strong>Fran Mayer</strong>, <strong>Frontend Developer</strong> con más de 3 años de experiencia creando interfaces web modernas, intuitivas y centradas en la experiencia del usuario.
                     <br><br>
-                    Actualmente, formo parte del equipo de <strong>PinApp</strong>, donde trabajo en el proyecto <strong>Innova Schools</strong>. En este rol, aplico mi mentalidad de desarrollador para elevar los estándares de calidad, integrando mis conocimientos técnicos en la detección de fallos y la optimización de procesos desde la raíz del código.
+                    Me especializo en <strong>React</strong>, <strong>JavaScript</strong> y <strong>TypeScript</strong>, desarrollando aplicaciones web responsive y de alto rendimiento. Mi enfoque combina código limpio con diseño funcional para crear productos que los usuarios disfrutan usar.
                     <br><br>
-                    Mi trayectoria comenzó en el desarrollo web, lo que me brindó una visión profunda sobre cómo se estructuran y renderizan las aplicaciones. Hoy, utilizo esa base para especializarme en <strong>QA Automation</strong>, buscando el equilibrio perfecto entre escribir código limpio y garantizar que cada entrega sea impecable.
+                    Cuento con experiencia trabajando en equipos ágiles para empresas como <strong>PinApp</strong> y <strong>SCTR Group</strong>, donde participé en el desarrollo de interfaces para proyectos de gran escala. Mi background técnico me permite colaborar eficientemente con diseñadores y backend developers para entregar soluciones completas.
                     <br><br>
-                    Disfruto enfrentar retos técnicos, colaborar en equipos ágiles y mantenerme al día con las últimas tendencias del sector. Fuera del código, me apasiona el <strong>fútbol</strong>, la <strong>naturaleza</strong> y el aprendizaje colaborativo dentro de la comunidad tecnológica.
+                    Me apasiona mantenerme actualizado con las últimas tendencias del ecosistema frontend, desde nuevas features de React hasta herramientas de desarrollo modernas. Fuera del código, disfruto del <strong>fútbol</strong>, la <strong>naturaleza</strong> y el aprendizaje colaborativo dentro de la comunidad tech.
                     <br><br>
-                    Si buscas a alguien que entienda el ciclo de vida del software de principio a fin —desde la creación de la interfaz hasta su validación final— ¡me encantaría que conectemos!`,
+                    Si buscas un desarrollador frontend comprometido con la calidad y la experiencia de usuario, ¡me encantaría que conectemos!`,
             downloadCV: 'Descargar CV <i class="fas fa-download"></i>'
         },
         // Skills Section
@@ -40,23 +40,23 @@ const translations = {
             title: 'Mi <span>curriculum</span>',
             job1: {
                 date: "Sep 2025 - Actual",
-                title: "QA Manual / Automation - PinApp (Innova Schools)",
-                description: "Desarrollé e implementé test cases en distintos proyectos. Creé scripts E2E para validar flujos principales de la aplicación (login, navegación, formularios, UI). Realicé reporte y seguimiento de bugs."
+                title: "Frontend Developer - PinApp (Innova Schools)",
+                description: "Desarrollo de interfaces de usuario para plataforma educativa. Implementación de componentes React reutilizables, integración con APIs REST y optimización de rendimiento. Colaboración en equipo ágil para entregar features de alto impacto."
             },
             job2: {
                 date: "Feb 2024 - Sep 2024",
                 title: "Soporte Técnico - FUDO",
-                description: "Brindé atención al cliente personalizada a través de chat, teléfono y correo electrónico, ofreciendo soluciones efectivas y manteniendo una comunicación clara y empática. Proporcioné soporte técnico integral para software de gestión alimentaria, resolviendo incidencias y garantizando su correcto funcionamiento."
+                description: "Soporte integral para software de gestión gastronómica: diagnóstico de incidencias, configuración de impresoras térmicas y resolución de problemas de red. Atención multicanal con registro completo de casos en sistema de tickets."
             },
             job3: {
                 date: "2022 - 2024",
-                title: "Front End / QA - SCTR Group (Proyecto E-Play)",
-                description: "Asistí al equipo frontend revisando código y documentando buenas prácticas, adquiriendo experiencia en flujos de trabajo reales. Brindé apoyo a desarrolladores senior durante la implementación de funcionalidades, aprendiendo sobre estándares de la industria. Diseñé test cases para ejecutar pruebas manuales dentro de la aplicación."
+                title: "Frontend Developer - Funiversity L.A.",
+                description: "Desarrollo y testing de interfaces en plataforma e-learning. Construcción de base de conocimiento del equipo para centralizar soluciones. Automatización de flujos de comunicación interna a través del sistema IRM."
             },
             job4: {
                 date: "2022 - 2024",
-                title: "Soporte Técnico / QA - Funiversity",
-                description: "Brindé soporte técnico a usuarios de la institución. Creé la base de conocimiento del área para mantener la información organizada. Desarrollé automatizaciones para facilitar la comunicación a través del IRM."
+                title: "Junior Frontend Developer - SCTR Group (Proyecto E-Play)",
+                description: "Colaboración en desarrollo de features frontend en ambiente de producción con flujos de trabajo reales. Revisión de código, control de calidad de UI y documentación técnica."
             }
         },
         // Services Section
@@ -70,13 +70,13 @@ const translations = {
                 title: "Diseño Web",
                 description: "Puedo brindarte una mirada objetiva sobre la interfaz de tu sitio para que sea más efectivo y dinámico."
             },
-            qatesting: {
-                title: "QA Testing",
-                description: "Testing manual y automatizado de aplicaciones web. Pruebas E2E, API testing y reportes de bugs detallados."
+            responsive: {
+                title: "Diseño Responsive",
+                description: "Desarrollo de interfaces que se adaptan perfectamente a cualquier dispositivo: móvil, tablet y desktop."
             },
-            qualityConsulting: {
-                title: "Consultoría de Calidad",
-                description: "Revisión de código, implementación de buenas prácticas y estrategias de testing para mejorar la calidad de tu software."
+            optimization: {
+                title: "Optimización Web",
+                description: "Mejora del rendimiento de tu sitio web: velocidad de carga, SEO técnico y experiencia de usuario optimizada."
             },
             consulting: {
                 title: "Consultoría",
@@ -91,9 +91,9 @@ const translations = {
         portfolio: {
             title: 'Mi <span>portfolio</span>',
             filter: {
-                all: "General",
-                qa: "QA",
-                frontend: "Front-end"
+                all: "Todos",
+                frontend: "Front-end",
+                javascript: "JavaScript"
             },
             githubBtn: 'Ver proyectos en GitHub <i class="fab fa-github"></i>'
         },
@@ -137,15 +137,15 @@ const translations = {
         // About Section
         about: {
             title: 'About <span>me</span>',
-            description: `Hi! I'm <strong>Fran Mayer</strong>, an IT professional with a solid background in <strong>Frontend Development</strong> and currently working as a <strong>QA Engineer</strong>. This combination allows me not only to build modern and functional interfaces, but also to ensure that software is robust and user-experience focused.
+            description: `Hi! I'm <strong>Fran Mayer</strong>, a <strong>Frontend Developer</strong> with over 3 years of experience creating modern, intuitive web interfaces focused on user experience.
                     <br><br>
-                    Currently, I'm part of the <strong>PinApp</strong> team, where I work on the <strong>Innova Schools</strong> project. In this role, I apply my developer mindset to elevate quality standards, integrating my technical knowledge in fault detection and process optimization from the code's root.
+                    I specialize in <strong>React</strong>, <strong>JavaScript</strong>, and <strong>TypeScript</strong>, building responsive and high-performance web applications. My approach combines clean code with functional design to create products that users enjoy using.
                     <br><br>
-                    My journey started in web development, which gave me a deep understanding of how applications are structured and rendered. Today, I use that foundation to specialize in <strong>QA Automation</strong>, seeking the perfect balance between writing clean code and ensuring every delivery is flawless.
+                    I have experience working in agile teams for companies like <strong>PinApp</strong> and <strong>SCTR Group</strong>, where I participated in developing interfaces for large-scale projects. My technical background allows me to collaborate efficiently with designers and backend developers to deliver complete solutions.
                     <br><br>
-                    I enjoy tackling technical challenges, collaborating in agile teams, and staying up to date with the latest industry trends. Outside of code, I'm passionate about <strong>football</strong>, <strong>nature</strong>, and collaborative learning within the tech community.
+                    I'm passionate about staying up to date with the latest frontend ecosystem trends, from new React features to modern development tools. Outside of code, I enjoy <strong>football</strong>, <strong>nature</strong>, and collaborative learning within the tech community.
                     <br><br>
-                    If you're looking for someone who understands the software lifecycle from start to finish —from interface creation to final validation— I'd love to connect!`,
+                    If you're looking for a frontend developer committed to quality and user experience, I'd love to connect!`,
             downloadCV: 'Download CV <i class="fas fa-download"></i>'
         },
         // Skills Section
@@ -157,23 +157,23 @@ const translations = {
             title: 'My <span>resume</span>',
             job1: {
                 date: "Sep 2025 - Present",
-                title: "QA Manual / Automation - PinApp (Innova Schools)",
-                description: "Developed and implemented test cases across multiple projects. Created E2E scripts to validate main application flows (login, navigation, forms, UI). Reported and tracked bugs."
+                title: "Frontend Developer - PinApp (Innova Schools)",
+                description: "User interface development for educational platform. Implementation of reusable React components, REST API integration and performance optimization. Agile team collaboration to deliver high-impact features."
             },
             job2: {
                 date: "Feb 2024 - Sep 2024",
                 title: "Technical Support - FUDO",
-                description: "Provided personalized customer support via chat, phone, and email, delivering effective solutions while maintaining clear and empathetic communication. Delivered comprehensive technical support for food management software, resolving incidents and ensuring proper functionality."
+                description: "End-to-end support for restaurant management software: incident diagnosis, thermal printer setup and network troubleshooting. Multichannel support with full case logging in ticketing system."
             },
             job3: {
                 date: "2022 - 2024",
-                title: "Front End / QA - SCTR Group (E-Play Project)",
-                description: "Assisted the frontend team by reviewing code and documenting best practices, gaining experience in real development workflows. Supported senior developers during feature implementation, learning about industry standards. Designed test cases to execute manual testing within the application."
+                title: "Frontend Developer - Funiversity L.A.",
+                description: "Interface development and testing on e-learning platform. Built team's knowledge base to centralize solutions. Automated internal communications workflows through the IRM system."
             },
             job4: {
                 date: "2022 - 2024",
-                title: "Technical Support / QA - Funiversity",
-                description: "Provided technical support to institution users. Created the department's knowledge base to keep information organized. Developed automations to streamline communication through the IRM."
+                title: "Junior Frontend Developer - SCTR Group (E-Play Project)",
+                description: "Collaborated on frontend feature development in a production environment with real-world workflows. Code review, UI quality control and technical documentation writing."
             }
         },
         // Services Section
@@ -187,13 +187,13 @@ const translations = {
                 title: "Web Design",
                 description: "I can provide an objective view of your site's interface to make it more effective and dynamic."
             },
-            qatesting: {
-                title: "QA Testing",
-                description: "Manual and automated testing of web applications. E2E testing, API testing and detailed bug reports."
+            responsive: {
+                title: "Responsive Design",
+                description: "Development of interfaces that adapt perfectly to any device: mobile, tablet and desktop."
             },
-            qualityConsulting: {
-                title: "Quality Consulting",
-                description: "Code review, implementation of best practices and testing strategies to improve your software quality."
+            optimization: {
+                title: "Web Optimization",
+                description: "Improvement of your website performance: loading speed, technical SEO and optimized user experience."
             },
             consulting: {
                 title: "Consulting",
@@ -209,8 +209,8 @@ const translations = {
             title: 'My <span>portfolio</span>',
             filter: {
                 all: "All",
-                qa: "QA",
-                frontend: "Front-end"
+                frontend: "Front-end",
+                javascript: "JavaScript"
             },
             githubBtn: 'View projects on GitHub <i class="fab fa-github"></i>'
         },
@@ -298,8 +298,8 @@ class I18n {
 
         // Update page title
         document.title = lang === 'es' 
-            ? 'Franco Mayer | Desarrollador Web' 
-            : 'Franco Mayer | Web Developer';
+            ? 'Franco Mayer | Frontend Developer' 
+            : 'Franco Mayer | Frontend Developer';
     }
 }
 

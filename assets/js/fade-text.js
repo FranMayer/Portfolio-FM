@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Words for each language
     const words = {
-        es: ['Fran Mayer', 'QA engineer', 'problem solver', 'tech enthusiast'],
-        en: ['Fran Mayer', 'QA engineer', 'problem solver', 'tech enthusiast']
+        es: ['Fran Mayer', 'Frontend Developer', 'problem solver', 'tech enthusiast'],
+        en: ['Fran Mayer', 'Frontend Developer', 'problem solver', 'tech enthusiast']
     };
 
     let currentIndex = 0;
