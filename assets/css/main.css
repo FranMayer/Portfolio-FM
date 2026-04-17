@@ -131,6 +131,64 @@ body{
     transform: scale(1);
 }
 
+/* Border beam effect for prominent cards */
+@property --beam-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes borderBeamRotate {
+    to {
+        --beam-angle: 360deg;
+    }
+}
+
+.portfolio-item,
+.service .service-item {
+    position: relative;
+    isolation: isolate;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+}
+
+.portfolio-item::after,
+.service .service-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 2px;
+    pointer-events: none;
+    background: conic-gradient(
+        from var(--beam-angle),
+        rgba(0, 240, 255, 0.05) 0deg,
+        rgba(0, 240, 255, 0.1) 120deg,
+        rgba(0, 240, 255, 1) 168deg,
+        rgba(0, 136, 204, 0.25) 210deg,
+        rgba(0, 240, 255, 0.05) 360deg
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    opacity: 0.95;
+    filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.45));
+    animation: borderBeamRotate 3.2s linear infinite;
+}
+
+[data-theme="light"] .portfolio-item::after,
+[data-theme="light"] .service .service-item::after {
+    opacity: 1;
+    filter: drop-shadow(0 0 7px rgba(0, 91, 144, 0.3));
+}
+
+.portfolio-item:hover::after,
+.service .service-item:hover::after {
+    opacity: 1;
+    filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.65));
+}
+
 
 
 
