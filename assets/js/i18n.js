@@ -14,21 +14,21 @@ const translations = {
         // Home Section
         home: {
             greeting: "Hola! 👋",
-            description: "Con más de 3 años de experiencia en mejorar la vida de los usuarios a través de la web.",
+            description: "Con más de 4 años de experiencia mejorando la experiencia de los usuarios: del soporte y QA al desarrollo web.",
             cta: 'Conoceme!<i class="fas fa-user"></i>'
         },
         // About Section
         about: {
             title: 'Acerca de <span>mí</span>',
-            description: `¡Hola! Soy <strong>Fran Mayer</strong>, <strong>Frontend Developer</strong> con más de 3 años de experiencia creando interfaces web modernas, intuitivas y centradas en la experiencia del usuario.
+            description: `¡Hola! Soy <strong>Fran Mayer</strong>, <strong>Técnico de Soporte y QA</strong> con más de 4 años de experiencia en atención multicanal, resolución de incidencias de hardware/software y gestión de tickets en entornos de alta demanda, en transición activa hacia <strong>QA Testing</strong> y desarrollo <strong>Front End</strong>.
                     <br><br>
-                    Me especializo en <strong>React</strong>, <strong>JavaScript</strong> y <strong>TypeScript</strong>, desarrollando aplicaciones web responsive y de alto rendimiento. Mi enfoque combina código limpio con diseño funcional para crear productos que los usuarios disfrutan usar.
+                    Tengo historial comprobado con plataformas <strong>SaaS</strong>, impresoras térmicas en red y CRMs líderes como <strong>JIRA</strong>, <strong>HubSpot</strong> y <strong>Salesforce</strong>. Me destaco por la documentación y reproducción de bugs, la comunicación clara con usuarios de cualquier nivel técnico y la trazabilidad completa en el cierre de casos.
                     <br><br>
-                    Cuento con experiencia trabajando en equipos ágiles para empresas como <strong>PinApp</strong> y <strong>SCTR Group</strong>, donde participé en el desarrollo de interfaces para proyectos de gran escala. Mi background técnico me permite colaborar eficientemente con diseñadores y backend developers para entregar soluciones completas.
+                    Cuento con formación certificada en <strong>testing manual y automatizado (Cypress)</strong> y en desarrollo web, además de experiencia en equipos como <strong>SCTR Group</strong> controlando la calidad de interfaces y documentando buenas prácticas de testing.
                     <br><br>
-                    Me apasiona mantenerme actualizado con las últimas tendencias del ecosistema frontend, desde nuevas features de React hasta herramientas de desarrollo modernas. Fuera del código, disfruto del <strong>fútbol</strong>, la <strong>naturaleza</strong> y el aprendizaje colaborativo dentro de la comunidad tech.
+                    Me apasiona seguir creciendo en la intersección entre el testing y el front end. Fuera del trabajo, disfruto del <strong>fútbol</strong>, la <strong>naturaleza</strong> y el aprendizaje colaborativo dentro de la comunidad tech.
                     <br><br>
-                    Si buscas un desarrollador frontend comprometido con la calidad y la experiencia de usuario, ¡me encantaría que conectemos!`,
+                    Si buscas a alguien detallista, con foco en la calidad y la experiencia de usuario, ¡me encantaría que conectemos!`,
             downloadCV: 'Descargar CV <i class="fas fa-download"></i>'
         },
         // Skills Section
@@ -39,24 +39,24 @@ const translations = {
         qualification: {
             title: 'Mi <span>curriculum</span>',
             job1: {
-                date: "Sep 2025 - Actual",
-                title: "Frontend Developer - PinApp (Innova Schools)",
-                description: "Desarrollo de interfaces de usuario para plataforma educativa. Implementación de componentes React reutilizables, integración con APIs REST y optimización de rendimiento. Colaboración en equipo ágil para entregar features de alto impacto."
+                date: "Feb 2024 - Actual",
+                title: "Soporte Técnico - FUDO",
+                description: "Resolución de incidencias N1/N2 vía chat, teléfono y correo en un software de gestión gastronómica usado por cientos de locales, dentro de SLA. Diagnóstico y configuración de impresoras térmicas LAN/USB, documentación de bugs con pasos de reproducción y coordinación con desarrollo para su escalamiento, y trazabilidad completa de casos en el sistema de ticketing."
             },
             job2: {
-                date: "Feb 2024 - Sep 2024",
-                title: "Soporte Técnico - FUDO",
-                description: "Soporte integral para software de gestión gastronómica: diagnóstico de incidencias, configuración de impresoras térmicas y resolución de problemas de red. Atención multicanal con registro completo de casos en sistema de tickets."
+                date: "2022 - 2024",
+                title: "Soporte Técnico - Funiversity L.A.",
+                description: "Asistencia técnica a estudiantes y docentes en acceso a plataforma, videoconferencias, entrega de tareas y configuración de dispositivos. Identificación, documentación y escalamiento de bugs con pasos de reproducción detallados, y gestión de la cola de tickets con registro completo de cada interacción."
             },
             job3: {
                 date: "2022 - 2024",
-                title: "Frontend Developer - Funiversity L.A.",
-                description: "Desarrollo y testing de interfaces en plataforma e-learning. Construcción de base de conocimiento del equipo para centralizar soluciones. Automatización de flujos de comunicación interna a través del sistema IRM."
+                title: "Soporte & QA Web - SCTR Group",
+                description: "Control de calidad de interfaces web, reportando inconsistencias bajo criterios de aceptación claros y verificables. Documentación de procesos y buenas prácticas de testing, facilitando el onboarding de nuevos integrantes al equipo."
             },
             job4: {
-                date: "2022 - 2024",
-                title: "Junior Frontend Developer - SCTR Group (Proyecto E-Play)",
-                description: "Colaboración en desarrollo de features frontend en ambiente de producción con flujos de trabajo reales. Revisión de código, control de calidad de UI y documentación técnica."
+                date: "2021 - 2022",
+                title: "Customer Support & Retención - APEX America BPO",
+                description: "Contacto proactivo con clientes en riesgo de baja mediante Avaya, negociando planes y beneficios personalizados para reducir la tasa de cancelación. Registro completo de interacciones, acuerdos y seguimientos en CRM, asegurando trazabilidad end-to-end del proceso de retención."
             }
         },
         // Services Section
@@ -131,21 +131,21 @@ const translations = {
         // Home Section
         home: {
             greeting: "Hello! 👋",
-            description: "With over 3 years of experience improving users' lives through the web.",
+            description: "With over 4 years of experience improving the user experience: from support and QA to web development.",
             cta: 'About me!<i class="fas fa-user"></i>'
         },
         // About Section
         about: {
             title: 'About <span>me</span>',
-            description: `Hi! I'm <strong>Fran Mayer</strong>, a <strong>Frontend Developer</strong> with over 3 years of experience creating modern, intuitive web interfaces focused on user experience.
+            description: `Hi! I'm <strong>Fran Mayer</strong>, a <strong>Technical Support & QA specialist</strong> with over 4 years of experience in multichannel support, hardware/software incident resolution and ticket management in high-demand environments, actively transitioning into <strong>QA Testing</strong> and <strong>Front End</strong> development.
                     <br><br>
-                    I specialize in <strong>React</strong>, <strong>JavaScript</strong>, and <strong>TypeScript</strong>, building responsive and high-performance web applications. My approach combines clean code with functional design to create products that users enjoy using.
+                    I have a proven track record with <strong>SaaS</strong> platforms, networked thermal printers and leading CRMs like <strong>JIRA</strong>, <strong>HubSpot</strong> and <strong>Salesforce</strong>. I stand out for bug documentation and reproduction, clear communication with users of any technical level, and full traceability when closing cases.
                     <br><br>
-                    I have experience working in agile teams for companies like <strong>PinApp</strong> and <strong>SCTR Group</strong>, where I participated in developing interfaces for large-scale projects. My technical background allows me to collaborate efficiently with designers and backend developers to deliver complete solutions.
+                    I hold certified training in <strong>manual and automated testing (Cypress)</strong> and web development, plus experience on teams like <strong>SCTR Group</strong> ensuring interface quality and documenting testing best practices.
                     <br><br>
-                    I'm passionate about staying up to date with the latest frontend ecosystem trends, from new React features to modern development tools. Outside of code, I enjoy <strong>football</strong>, <strong>nature</strong>, and collaborative learning within the tech community.
+                    I'm passionate about growing at the intersection of testing and front end. Outside of work, I enjoy <strong>football</strong>, <strong>nature</strong>, and collaborative learning within the tech community.
                     <br><br>
-                    If you're looking for a frontend developer committed to quality and user experience, I'd love to connect!`,
+                    If you're looking for someone detail-oriented, focused on quality and user experience, I'd love to connect!`,
             downloadCV: 'Download CV <i class="fas fa-download"></i>'
         },
         // Skills Section
@@ -156,24 +156,24 @@ const translations = {
         qualification: {
             title: 'My <span>resume</span>',
             job1: {
-                date: "Sep 2025 - Present",
-                title: "Frontend Developer - PinApp (Innova Schools)",
-                description: "User interface development for educational platform. Implementation of reusable React components, REST API integration and performance optimization. Agile team collaboration to deliver high-impact features."
+                date: "Feb 2024 - Present",
+                title: "Technical Support - FUDO",
+                description: "N1/N2 incident resolution via chat, phone and email on restaurant management software used by hundreds of venues, within SLA. Thermal printer (LAN/USB) diagnosis and setup, bug documentation with reproduction steps and coordination with development for escalation, plus full case traceability in the ticketing system."
             },
             job2: {
-                date: "Feb 2024 - Sep 2024",
-                title: "Technical Support - FUDO",
-                description: "End-to-end support for restaurant management software: incident diagnosis, thermal printer setup and network troubleshooting. Multichannel support with full case logging in ticketing system."
+                date: "2022 - 2024",
+                title: "Technical Support - Funiversity L.A.",
+                description: "Technical support for students and teachers on platform access, video conferencing, assignment submission and device setup. Identification, documentation and escalation of bugs with detailed reproduction steps, and ticket queue management with full logging of every interaction."
             },
             job3: {
                 date: "2022 - 2024",
-                title: "Frontend Developer - Funiversity L.A.",
-                description: "Interface development and testing on e-learning platform. Built team's knowledge base to centralize solutions. Automated internal communications workflows through the IRM system."
+                title: "Web Support & QA - SCTR Group",
+                description: "Web interface quality control, reporting inconsistencies against clear and verifiable acceptance criteria. Documentation of testing processes and best practices, easing onboarding of new team members."
             },
             job4: {
-                date: "2022 - 2024",
-                title: "Junior Frontend Developer - SCTR Group (E-Play Project)",
-                description: "Collaborated on frontend feature development in a production environment with real-world workflows. Code review, UI quality control and technical documentation writing."
+                date: "2021 - 2022",
+                title: "Customer Support & Retention - APEX America BPO",
+                description: "Proactive outreach to at-risk customers through Avaya, negotiating personalized plans and benefits to reduce churn. Full logging of interactions, agreements and follow-ups in CRM, ensuring end-to-end traceability of the retention process."
             }
         },
         // Services Section
